@@ -1,0 +1,47 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: #fafafa;
+	--black: #1e1e1e;
+	--gray: #dfdfdf;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.mainContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 24px;
+	align-items: center;
+	height: 100px;
+	/* Glass */
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 24px 0 rgba(67, 67, 67, 0.37);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+}
+
+.mainContainer img {
+	max-width: 200px;
+}
+
+.classLink {
+	color: var(--white);
+	padding-left: 24px;
+	text-shadow: 1px 1px 3px rgb(41, 41, 41);
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.classLink:hover {
+	color: var(--yellow1);
+}

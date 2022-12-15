@@ -1,0 +1,47 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: rgb(250, 250, 250);
+	--black: rgb(30, 30, 30);
+	--gray: #dfdfdf;
+}
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filterContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 12px;
+	column-gap: 12px;
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+
+.buttonRefresh {
+	font-family: roboto;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+	width: 120px;
+	height: 50px;
+	border: none;
+	border-radius: 6px;
+	background-color: var(--yellow1);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.buttonRefresh:hover {
+	font-weight: 500;
+	transition: 0.3s;
+	background-color: var(--yellow2);
+}

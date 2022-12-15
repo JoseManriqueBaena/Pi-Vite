@@ -1,0 +1,56 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: rgb(250, 250, 250);
+	--black: rgb(30, 30, 30);
+	--gray: #dfdfdf;
+}
+
+.mainContainer {
+	top: 0;
+	background-image: url('https://images2.alphacoders.com/716/716462.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -50px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 600px;
+}
+
+.containerInfo img {
+	max-width: 500px;
+}
+
+.buttonGo {
+	background-color: var(--yellow1);
+	color: var(--white);
+	text-shadow: 1px 1px 3px rgb(41, 41, 41);
+	font-size: 24px;
+	font-weight: 600;
+	border: none;
+	border-radius: 8px;
+	height: 60px;
+	width: 350px;
+	transition: 0.3s;
+	box-shadow: 5px 5px 8px #3b3b3b;
+	cursor: pointer;
+}
+
+.buttonGo:hover {
+	background-color: var(--yellow2);
+}

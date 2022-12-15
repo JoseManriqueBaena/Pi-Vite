@@ -1,0 +1,136 @@
+.mainContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	/* Tamaño */
+	width: 500px;
+	height: fit-content;
+	padding: 24px;
+	margin: 24px;
+	/* Glasmorfismo */
+	background: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.arrowContainer {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+
+.arrowContainer img {
+	max-width: 25px;
+}
+
+.arrowContainer img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.pokeName {
+	text-transform: capitalize;
+}
+
+.pokeName {
+	font-size: 36px;
+	padding: 12px;
+	margin: 0px;
+}
+
+.statsContainer {
+	display: flex;
+	column-gap: 24px;
+	padding: 12px;
+}
+
+.statsContainer img {
+	width: 30px;
+}
+
+.statsContainer h3 {
+	margin: 0px;
+	font-size: 24px;
+}
+
+.stats {
+	display: flex;
+	align-items: center;
+	column-gap: 6px;
+}
+
+.imgContainers {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 12px;
+}
+
+.containerShiny {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(20, 20, 20);
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.containerShiny:hover {
+	background-color: rgb(90, 90, 90);
+}
+
+.imgshiny {
+	width: 30px;
+}
+
+.imgPokemon {
+	max-width: 350px;
+}
+
+.pokedexContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 6px;
+	padding: 24px 0px;
+}
+
+.pokedex {
+	font-size: 24px;
+	margin: 0;
+}
+
+.imgPokedex {
+	width: 30px;
+}
+
+.containerTypes {
+	display: flex;
+	justify-content: center;
+	column-gap: 12px;
+	padding: 12px;
+}
+
+.containerTypes img {
+	width: 60px;
+}
+
+.types {
+	display: flex;
+	column-gap: 12px;
+}
+
+.types h3 {
+	text-transform: capitalize;
+	font-size: 24px;
+}

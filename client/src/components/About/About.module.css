@@ -1,0 +1,44 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: rgb(250, 250, 250);
+	--black: rgb(30, 30, 30);
+	--gray: #dfdfdf;
+}
+
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+}
+
+.aboutContainer {
+	/* Glass */
+	background: rgba(242, 242, 242, 0.6);
+	box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+
+	padding: 12px;
+	width: 600px;
+	height: fit-content;
+}
+
+.aboutContainer h1 {
+	font-size: 32px;
+	color: var(--black);
+}
+
+.aboutContainer p {
+	font-size: 18px;
+	color: var(--black);
+	text-align: start;
+}

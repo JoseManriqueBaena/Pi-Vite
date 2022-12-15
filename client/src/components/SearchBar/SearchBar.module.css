@@ -1,0 +1,53 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: rgb(250, 250, 250);
+	--black: rgb(30, 30, 30);
+	--gray: #dfdfdf;
+}
+
+.inputSearch {
+	font-family: roboto;
+	padding-left: 12px;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+	width: 150px;
+	height: 48px;
+	border-radius: 6px 0 0 6px;
+	border: none;
+	outline: none;
+	transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.inputSearch::placeholder {
+	color: var(--black);
+}
+
+.inputSearch:focus {
+	width: 220px;
+	font-weight: 500;
+}
+
+.buttonSearch {
+	font-family: roboto;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+	width: 100px;
+	height: 50px;
+	border: none;
+	border-radius: 0 6px 6px 0;
+	background-color: var(--yellow1);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.buttonSearch:hover {
+	font-weight: 500;
+	transition: 0.3s;
+	background-color: var(--yellow2);
+}

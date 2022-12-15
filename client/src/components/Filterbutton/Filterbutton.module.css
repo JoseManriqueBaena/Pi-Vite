@@ -1,0 +1,38 @@
+:root {
+	--yellow1: #ffcc00;
+	--yellow2: #d5a100;
+	--blue1: #0075be;
+	--blue2: #0a285f;
+	--redPokeball: #fb1b1b;
+	--white: rgb(250, 250, 250);
+	--black: rgb(30, 30, 30);
+	--gray: #dfdfdf;
+}
+
+.selectButton {
+	background-color: var(--white);
+	display: block;
+	font-size: 16px;
+	font-family: Roboto;
+	font-weight: 400;
+	border-radius: 5px;
+	color: var(--black);
+	padding: 10px;
+	width: 200px;
+	height: 50px;
+	border: 1px solid var(--yellow1);
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: none;
+	background-image: url('../../img/icon_down_arrow_yellow1.svg');
+	background-repeat: no-repeat, repeat;
+	background-position: right 18px top 50%;
+	background-size: 12px auto, 100%;
+	cursor: pointer;
+}
+
+.selectButton:focus {
+	border: 2px solid var(--yellow2);
+}
