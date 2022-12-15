@@ -1,4 +1,4 @@
-# Individual Project - Henry Pokemon
+# Individual Project - Actualización vite y RTK
 
 ## Objetivos del Proyecto
 
